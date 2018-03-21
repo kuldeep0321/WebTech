@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+h3{
+    text-align: center;
+    background-color: #4CAF50;
+    width: 100%;
+    padding: 12px 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+
+    border-radius: 30px;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+li {
+    text-align: center;
+    width: 97%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    list-style-type: none;
+    overflow: hidden;
+}
+</style>
+<body>
+
+<h3>Submit Your Details Here</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="firstname" placeholder="Your Name..">
+
+    <label for="mobile">Mobile No.</label>
+    <input type="text" id="mobile" name="mobileno" placeholder="10 Digit Mobile No.">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="emailid" placeholder="Enter Your Email ID Here">    
+
+    <label for="password">Password</label>
+    <input type="text" id="password" name="password" placeholder="New Password">
+
+    <input type="submit" value="JOIN">
+
+
+    <li><a href="royal.html">BACK</a></li>
+      </form>
+</div>
+
+</body>
+</html>
